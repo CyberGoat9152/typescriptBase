@@ -12,9 +12,9 @@ then
   touch index.ts
   touch route.ts
   npm init -y
-  npm i typescript ts-node-dev
-  npm i express @types/express
-  npm i cors @types/cors
+  npm i typescript ts-node-dev -D
+  npm i express @types/express -D
+  npm i cors @types/cors -D
   npm tsc --init
   clear
   echo "Tip: use 'npx ts-node-dev src/index.ts --respawn --transpileOnly'  "
@@ -27,9 +27,9 @@ else
   touch index.ts
   touch route.ts
   npm init -y
-  npm i typescript ts-node-dev
-  npm i express @types/express
-  npm i cors @types/cors
+  npm i typescript ts-node-dev -D
+  npm i express @types/express -D
+  npm i cors @types/cors -D
   npm tsc --init 
   clear
   echo "Tip: use 'npx ts-node-dev src/index.ts --respawn --transpileOnly'  "
