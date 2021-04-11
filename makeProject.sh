@@ -15,7 +15,7 @@ then
   npm i typescript ts-node-dev -D
   npm i express @types/express -D
   npm i cors @types/cors -D
-  npm tsc --init
+  npx tsc --init
   clear
   echo "Tip: use 'npx ts-node-dev src/index.ts --respawn --transpileOnly'  "
 else
@@ -30,7 +30,7 @@ else
   npm i typescript ts-node-dev -D
   npm i express @types/express -D
   npm i cors @types/cors -D
-  npm tsc --init 
+  npx tsc --init 
   clear
   echo "Tip: use 'npx ts-node-dev src/index.ts --respawn --transpileOnly'  "
 fi
